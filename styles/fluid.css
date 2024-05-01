@@ -1,0 +1,64 @@
+body {
+    font-size: 16px;
+    background-color: rgb(42, 22, 30);
+    color: white;
+    padding: 100px;
+}
+p {
+    font-size: 12px;
+}
+nav a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    border:solid white 1px;
+    padding: 10px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: white;
+    color:rgb(42, 22, 30);
+}
+section a {
+    color: rgb(252, 168, 202);
+}
+.zoe section {
+    padding: 5px;
+    box-sizing: border-box;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.em {
+    background-image: url(../images/1water.jpg);
+    font-size: 12px;
+    line-height:2em;
+    border: solid white .5em;
+}
+.rem {
+    background-image: url(../images/2water.jpg);
+    font-size: 1.5rem;
+    border: dotted .5rem pink;
+}
+.percent {
+    background-image: url(../images/3water.jpg);
+    /* border: dashed lavender; */
+}
+.percent p {
+    width: 75%;
+}
+.box {
+    background-image: url(../images/4water.jpg);
+}
+.vw {
+    background-image: url(../images/5water.jpg);
+    border: dashed lavender 1vw
+}
+.hero p {
+    width: 20vw;
+}
+.hero img {
+    width: 100%;
+    height:auto
+}
