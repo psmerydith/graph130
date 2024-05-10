@@ -1,0 +1,85 @@
+:root {
+    --green:#074817;
+    --white: #ffffff;
+    font-family: "Raleway", sans-serif;v
+}
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+main, header, nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+main section {
+    border: solid white 1px;
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+}
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+header {
+    background-color: var(--white);
+    text-align: center;
+}
+header a, header p, nav {
+    color: lightgrey;
+    text-decoration: none;
+}
+.hero-orcas {
+    background-image: url(../images/sj-034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: #074817 3px 3px 3px;
+}
+nav ul {
+    background: var(--white);
+}
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+}
+nav ul li:hover {
+    background-color: lightgrey;
+    color: var(--white);
+}
+
+.item1 {
+    background-image: url(../images/sj-012.jpg);
+}
+.item3 {
+    background-image: url(../images/sj-025.jpg);
+}
+.item5 {
+    background-image: url(../images/sj-068.jpg);
+}
+.item7 {
+    background-image: url(../images/sj-029.jpg);
+}
+.item2, .item4, .item6{
+    background-image: none;
+}
