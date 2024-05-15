@@ -1,7 +1,9 @@
 :root {
     --green:#074817;
+    --blue: #11467d;
     --white: #ffffff;
-    font-family: "Raleway", sans-serif;v
+    font-family: "Raleway", sans-serif;
+    color:var(--blue);
 }
 body, header, main, footer, section, article, aside {
     margin: 0px;
@@ -11,15 +13,14 @@ body, header, main, footer, section, article, aside {
 }
 main, header, nav ul, footer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
 }
 main section {
     border: solid white 1px;
     text-align: center;
     padding: 20px;
-    height: 400px;
 }
-.item1 {
+.item1, .item8 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -27,11 +28,24 @@ main section {
     grid-column-start: 1;
     grid-column-end: 2;
 }
+.pic6, .pic4, .pic2 {
+    background-image: url(../images/sj-011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.pic2 {
+    background-image: url(../images/sj-031.jpg);
+}
+.pic4 {
+    background-image: url(../images/sj-039.jpg);
+}
 .item7 {
     grid-column-start: 2;
     grid-column-end: 4;
 }
-.item8, .item9, .item10, .hero-orcas {
+.hero-orcas {
     grid-column-start: 1;
     grid-column-end: 4;
 }
@@ -39,11 +53,17 @@ header {
     background-color: var(--white);
     text-align: center;
 }
-header a, header p, nav {
-    color: lightgrey;
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
+}
+
+header a, header p, nav a, label {
+    color: var(--blue);
     text-decoration: none;
 }
-.hero-orcas {
+.hero-orcas, main section {
     background-image: url(../images/sj-034.jpg);
     background-position: center;
     background-size: cover;
@@ -56,7 +76,7 @@ h1 {
     text-shadow: #074817 3px 3px 3px;
 }
 nav ul {
-    background: var(--white);
+    background-color: var(--white);
 }
 nav ul li {
     list-style-type: none;
@@ -64,12 +84,15 @@ nav ul li {
     height: 100px;
 }
 nav ul li:hover {
-    background-color: lightgrey;
+    background-color: var(--green);
     color: var(--white);
+}
+main section {
+    height: 400px;
 }
 
 .item1 {
-    background-image: url(../images/sj-012.jpg);
+    background-image: url(../images/sj-015.jpg);
 }
 .item3 {
     background-image: url(../images/sj-025.jpg);
@@ -78,8 +101,11 @@ nav ul li:hover {
     background-image: url(../images/sj-068.jpg);
 }
 .item7 {
-    background-image: url(../images/sj-029.jpg);
+    background-image: url(../images/sj-022.jpg);
 }
-.item2, .item4, .item6{
+.item2, .item4, .item6 {
     background-image: none;
+}
+footer {
+    padding: 5px;
 }
