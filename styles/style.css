@@ -91,7 +91,7 @@ canvas {
   .grid-full  { width: 96.969696969697%; }
 
   .gallery .grid-unit {
-    width: 30.30303030303%;
+    width: 30%;
   }
 
   .content-pad-right {
@@ -124,7 +124,7 @@ section {
 footer {
   text-align: center;
   font-size: 0.9em;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cf3a64;
   padding: 0.5em 0 2.5em;
 }
 
@@ -169,7 +169,7 @@ code {
 /* Helpers
 -------------------------------------------------------------- */
 .show-grid div[class*='grid-'] {
-  background-color: #eee;
+  background-color: #ffe0e9;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -177,4 +177,10 @@ code {
   padding: 0.5em 1em;
   margin-bottom: 1em;
   text-align: center;
+}
+html {
+  background-color: #fff1f5
+}
+h1, h2 {
+  color: #cf3a64;
 }
