@@ -130,9 +130,12 @@ footer {
 
 /* Typography
 -------------------------------------------------------------- */
-.heading {
-  font-size: 3em;
+.heading, header {
+  font-size: 2em;
   margin: 0;
+  text-align: center;
+    background-color: #ffe0e9;
+    color: #cf3a64;
 }
 
 .sub-heading {
@@ -181,6 +184,6 @@ code {
 html {
   background-color: #fff1f5
 }
-h1, h2 {
+h1, h2, h3 {
   color: #cf3a64;
 }
