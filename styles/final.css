@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+h1, h2, h3, h4 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+}
+.sponge {
+    font-family: "Quicksand", sans-serif;
+}
+p {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat ;
+  background-image: url(../images/leaves.jpg);
+}
+h1 {
+    font-size: 3em;
+    text-align: right;
+}
+header h2 {
+  text-align: right;
+  font-size: 1em;
+}
+header {
+  background-color: rgb(213, 116, 116);
+}
+header div {
+  padding:30px 0;
+  width: 400px
+}
+nav {
+  background-color: rgb(176, 99, 99);
+}
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: rgb(130, 62, 83);
+  color:rgb(213, 116, 116) ;
+}
+
+.dark-leaves {
+  background-image: url(../images/dark-leaves.jpg);
+  height:600px;
+  background-size: cover;
+}
+h2 {
+  font-size:5em;
+}
+section div {
+  padding:4em;
+}
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+section {
+  background-color: #c88a5d;
+  margin-bottom:20em ;
+}
+
+.sponge {
+  font-size: .3em;
+}
+.amber p,.amber h2 {
+  width: 66%;
+}
+.amber {
+  padding:100px 0 150px 86px;
+}
+.no-margin {
+  margin: 0px;
+}
+.versus {
+  margin: 120px;
+  text-align: center;
+}
+.marla {
+  padding-left: 86px;
+}
+.marla p {
+  font-size: 2em;
+  text-align: center;
+  padding: 100px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin:30px auto;
+}
+p.comfort{
+background-color: rgb(213, 116, 116);
+}
+p.fear {
+background-color: rgb(176, 99, 99);
+}
+p.learning {
+background-color: rgb(130, 62, 83);
+}
+p.growth {
+background-color: rgb(241, 174, 174);
+}
+
+.core h3 {
+  font-size: 6em;
+  text-align: center;
+}
+.core h4, footer h2 {
+  font-size: 3em;
+}
+.dif {
+  background-color:rgb(213, 116, 116);
+}
+.emb {
+  background-color:rgb(176, 99, 99);
+}
+.val {
+  background-color: rgb(130, 62, 83);
+}
+.fee {
+  background-color: rgb(241, 174, 174);
+}
+.amber-purple {
+  background-color: rgb(241, 174, 174);;
+}
+.darkleaves2 {
+background-image: url(../images/dark-leaves.jpg);
+height:1000px;
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+}
+
+footer {
+  padding: 86px;
+  background-color: #c88a5d;
+}
+
+@media screen and (max-width:550px) {
+  nav, main, footer, header {
+    width: 100%;
+    display:block; 
+    margin:auto;
+  }
+.pure-g {
+  display:block;
+}
+.pure-u-1-2, .pure-u-1-4 {
+  width: 100%;
+}
+header {
+  background-color: rgb(213, 116, 116);
+}
+.marla {
+  padding: 30px;
+}
+}
